@@ -1,6 +1,6 @@
 package grupders;
 
-
+// yorum satırı
 	
 public class Kitap{
 	private String isim;
@@ -48,11 +48,11 @@ public class Kitap{
 	}
 	
 	public String kitabiTanit() {
-		String result = "Kitabın adı"+ getIsim()+ "."
-				+ getSayfa() + "sayfa." + "Yazarı"
-				+ getYazar() + "Türü" 
+		String result = "Kitabın Adı "+ getIsim()+ 
+				+ getSayfa() + " sayfa. " + " Yazarı"
+				+ getYazar() + " Türü " 
 				+ getTur();
-		System.out.println(result);
+		System.out.println();
 		return result;
 		
 	}
