@@ -8,7 +8,15 @@ public class OtobusModel {
 	private String muavin ;
 	private String host ;
 	private String plaka ;
+	private String model ;
 	
+	
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
 	public int getId() {
 		return id;
 	}
@@ -48,7 +56,7 @@ public class OtobusModel {
 	public OtobusModel() {
 		super();
 	}
-	public OtobusModel(int id, int koltukSayisi, String sofor, String muavin, String host, String plaka) {
+	public OtobusModel(int id, int koltukSayisi, String sofor, String muavin, String host, String plaka , String model) {
 		super();
 		this.id = id;
 		this.setId(id);
@@ -57,10 +65,7 @@ public class OtobusModel {
 		this.muavin = muavin;
 		this.host = host;
 		this.plaka = plaka;
+		this.model = model ;
 		
-	}
-	
-	
-	
-		
+	}		
 }
